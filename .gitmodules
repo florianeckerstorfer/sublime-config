@@ -19,3 +19,6 @@
 [submodule "SublimeColorHighlighter"]
 	path = SublimeColorHighlighter
 	url = git://github.com/Monnoroch/ColorHighlighter.git
+[submodule "SublimeAbacus"]
+	path = SublimeAbacus
+	url = git://github.com/khiltd/Abacus.git

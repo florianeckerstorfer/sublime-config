@@ -49,3 +49,5 @@ User/Default (Linux).sublime-keymap
 User/Default (OSX).sublime-keymap
 User/Default (Windows).sublime-keymap
 PyV8/
+*.cache
+*.chback
