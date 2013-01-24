@@ -13,3 +13,6 @@
 [submodule "SublimePHPUnit"]
 	path = SublimePHPUnit
 	url = git://github.com/florianeckerstorfer/sublime-phpunit.git
+[submodule "SublimeEmmet"]
+	path = SublimeEmmet
+	url = git://github.com/sergeche/emmet-sublime.git
