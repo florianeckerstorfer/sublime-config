@@ -7,3 +7,9 @@
 [submodule "Theme - Soda"]
 	path = Theme - Soda
 	url = https://github.com/buymeasoda/soda-theme/
+[submodule "SublimePHP"]
+	path = SublimePHP
+	url = git://github.com/florianeckerstorfer/sublime-php.git
+[submodule "SublimePHPUnit"]
+	path = SublimePHPUnit
+	url = git://github.com/florianeckerstorfer/sublime-phpunit.git

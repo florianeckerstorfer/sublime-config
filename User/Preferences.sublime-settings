@@ -7,7 +7,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"PHP"
 	],
 	"php_binary_path": "/usr/local/bin/php",
 	"python_binary_path": "/usr/bin/pyhton",
