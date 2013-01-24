@@ -22,3 +22,6 @@
 [submodule "SublimeAbacus"]
 	path = SublimeAbacus
 	url = git://github.com/khiltd/Abacus.git
+[submodule "SublimeIncDecValue"]
+	path = SublimeIncDecValue
+	url = git://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
