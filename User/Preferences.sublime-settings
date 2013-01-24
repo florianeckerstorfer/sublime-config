@@ -1,0 +1,23 @@
+{
+	"anypreter_output_inteval": 1,
+	"anypreter_stream_output": false,
+	"font_face": "Inconsolata",
+	"font_size": 14.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"php_binary_path": "/usr/local/bin/php",
+	"python_binary_path": "/usr/bin/pyhton",
+	"ruby_binary_path": "/usr/bin/ruby",
+	"rulers":
+	[
+		120
+	],
+	"scroll_past_end": true,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
