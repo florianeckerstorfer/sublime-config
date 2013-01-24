@@ -2,7 +2,11 @@
     {
         "keys": ["super+ctrl+space"],
         "command": "auto_complete"
-        },
+    },
+    {
+        "keys": ["super+alt+7"],
+        "command": "goto_python_definition"
+    },
     {
         "keys":     ["super+ctrl+alt+6"],
         "command":  "abacus"
