@@ -2,6 +2,7 @@
 	"anypreter_output_inteval": 1,
 	"anypreter_stream_output": false,
 	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"detect_slow_plugins": false,
 	"font_face": "Menlo",
 	"font_size": 13.0,
 	"highlight_line": true,
@@ -12,6 +13,7 @@
 	],
 	"php_binary_path": "/usr/local/bin/php",
 	"python_binary_path": "/usr/bin/pyhton",
+	"remember_open_files": false,
 	"ruby_binary_path": "/usr/bin/ruby",
 	"rulers":
 	[
