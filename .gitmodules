@@ -16,3 +16,6 @@
 [submodule "SublimeEmmet"]
 	path = SublimeEmmet
 	url = git://github.com/sergeche/emmet-sublime.git
+[submodule "SublimeColorHighlighter"]
+	path = SublimeColorHighlighter
+	url = git://github.com/Monnoroch/ColorHighlighter.git
