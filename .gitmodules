@@ -25,3 +25,6 @@
 [submodule "SublimeIncDecValue"]
 	path = SublimeIncDecValue
 	url = git://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
+[submodule "SublimePhpDoc"]
+	path = SublimePhpDoc
+	url = git://github.com/SublimeText/PhpDoc.git
