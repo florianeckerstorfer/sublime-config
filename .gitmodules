@@ -31,3 +31,6 @@
 [submodule "NettutsFetch"]
 	path = NettutsFetch
 	url = git://github.com/weslly/Nettuts-Fetch.git
+[submodule "PHP Twig"]
+	path = PHP Twig
+	url = git://github.com/Anomareh/PHP-Twig.tmbundle.git
