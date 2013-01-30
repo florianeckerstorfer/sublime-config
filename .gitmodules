@@ -34,3 +34,9 @@
 [submodule "ColorPicker"]
 	path = ColorPicker
 	url = git://github.com/weslly/ColorPicker.git
+[submodule "PHP Twig"]
+	path = PHP Twig
+	url = git://github.com/Anomareh/PHP-Twig.tmbundle.git
+[submodule "LaTeXTools"]
+	path = LaTeXTools
+	url = git://github.com/SublimeText/LaTeXTools.git
