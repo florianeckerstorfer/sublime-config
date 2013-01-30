@@ -31,9 +31,15 @@
 [submodule "NettutsFetch"]
 	path = NettutsFetch
 	url = git://github.com/weslly/Nettuts-Fetch.git
+[submodule "ColorPicker"]
+	path = ColorPicker
+	url = git://github.com/weslly/ColorPicker.git
 [submodule "PHP Twig"]
 	path = PHP Twig
 	url = git://github.com/Anomareh/PHP-Twig.tmbundle.git
 [submodule "LaTeXTools"]
 	path = LaTeXTools
 	url = git://github.com/SublimeText/LaTeXTools.git
+[submodule "SublimeFilterLines"]
+	path = SublimeFilterLines
+	url = git@github.com:florianeckerstorfer/SublimeFilterLines.git
