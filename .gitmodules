@@ -40,3 +40,6 @@
 [submodule "LaTeXTools"]
 	path = LaTeXTools
 	url = git://github.com/SublimeText/LaTeXTools.git
+[submodule "SublimeFilterLines"]
+	path = SublimeFilterLines
+	url = git@github.com:florianeckerstorfer/SublimeFilterLines.git
