@@ -6,6 +6,9 @@
     <string>Monokai Soda</string>
     <key>settings</key>
     <array><dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_51FFFFFF</string><key>settings</key><dict><key>background</key><string>#51FFFFFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_51FFFFFF</string><key>settings</key><dict><key>background</key><string>#51FFFFFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_51FFFFFF</string><key>settings</key><dict><key>background</key><string>#51FFFFFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_51FFFFFF</string><key>settings</key><dict><key>background</key><string>#51FFFFFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
 
         <dict>
             <key>settings</key>
