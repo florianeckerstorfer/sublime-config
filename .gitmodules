@@ -43,3 +43,6 @@
 [submodule "SublimeFilterLines"]
 	path = SublimeFilterLines
 	url = git@github.com:florianeckerstorfer/SublimeFilterLines.git
+[submodule "CTags"]
+	path = CTags
+	url = git://github.com/SublimeText/CTags.git
