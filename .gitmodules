@@ -46,3 +46,6 @@
 [submodule "CTags"]
 	path = CTags
 	url = git://github.com/SublimeText/CTags.git
+[submodule "DetectSyntax"]
+	path = DetectSyntax
+	url = git://github.com/phillipkoebbe/DetectSyntax.git
