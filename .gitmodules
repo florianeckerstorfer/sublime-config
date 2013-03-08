@@ -52,3 +52,6 @@
 [submodule "DetectSyntax"]
 	path = DetectSyntax
 	url = git://github.com/phillipkoebbe/DetectSyntax.git
+[submodule "SublimeTableEditor"]
+	path = SublimeTableEditor
+	url = git@github.com:vkocubinsky/SublimeTableEditor.git
