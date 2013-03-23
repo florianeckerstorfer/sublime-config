@@ -58,3 +58,6 @@
 [submodule "sass-textmate-bundle"]
 	path = sass-textmate-bundle
 	url = git@github.com:nathos/sass-textmate-bundle.git
+[submodule "sublime-jsdocs"]
+	path = sublime-jsdocs
+	url = git@github.com:spadgos/sublime-jsdocs.git
