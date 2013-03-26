@@ -52,3 +52,12 @@
 [submodule "DetectSyntax"]
 	path = DetectSyntax
 	url = git://github.com/phillipkoebbe/DetectSyntax.git
+[submodule "SublimeTableEditor"]
+	path = SublimeTableEditor
+	url = git@github.com:vkocubinsky/SublimeTableEditor.git
+[submodule "sass-textmate-bundle"]
+	path = sass-textmate-bundle
+	url = git@github.com:nathos/sass-textmate-bundle.git
+[submodule "sublime-jsdocs"]
+	path = sublime-jsdocs
+	url = git@github.com:spadgos/sublime-jsdocs.git
