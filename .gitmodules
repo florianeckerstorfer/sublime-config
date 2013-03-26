@@ -61,3 +61,12 @@
 [submodule "sublime-jsdocs"]
 	path = sublime-jsdocs
 	url = git@github.com:spadgos/sublime-jsdocs.git
+[submodule "sublime-phpcs"]
+	path = sublime-phpcs
+	url = git://github.com/benmatselby/sublime-phpcs.git
+[submodule "sublime-alom"]
+	path = sublime-alom
+	url = https://github.com/alexandresalome/sublime-alom
+[submodule "Theme - Phoenix"]
+	path = Theme - Phoenix
+	url = https://github.com/netatoo/phoenix-theme/
