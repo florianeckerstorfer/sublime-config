@@ -36,5 +36,9 @@
                 [0, 1, 1, 2], [1, 1, 2, 2]
             ]
         }
+    },
+    {
+        "keys": ["super+shift+h"],
+        "command": "goto_documentation"
     }
 ]
