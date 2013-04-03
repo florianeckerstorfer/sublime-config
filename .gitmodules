@@ -76,3 +76,6 @@
 [submodule "DocBlockr"]
 	path = DocBlockr
 	url = git@github.com:spadgos/sublime-jsdocs.git
+[submodule "sublime-symfony2"]
+	path = sublime-symfony2
+	url = git@github.com:florianeckerstorfer/sublime-symfony2.git
