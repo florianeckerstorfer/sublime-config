@@ -73,3 +73,6 @@
 [submodule "sublime-text-2-goto-documentation"]
 	path = sublime-text-2-goto-documentation
 	url = git@github.com:kemayo/sublime-text-2-goto-documentation.git
+[submodule "sublime-mockery"]
+	path = sublime-mockery
+	url = git@github.com:florianeckerstorfer/sublime-mockery.git
