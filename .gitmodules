@@ -73,3 +73,6 @@
 [submodule "sublime-mockery"]
 	path = sublime-mockery
 	url = git@github.com:florianeckerstorfer/sublime-mockery.git
+[submodule "DocBlockr"]
+	path = DocBlockr
+	url = git@github.com:spadgos/sublime-jsdocs.git
