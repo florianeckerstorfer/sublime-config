@@ -58,9 +58,6 @@
 [submodule "sass-textmate-bundle"]
 	path = sass-textmate-bundle
 	url = git@github.com:nathos/sass-textmate-bundle.git
-[submodule "sublime-jsdocs"]
-	path = sublime-jsdocs
-	url = git@github.com:spadgos/sublime-jsdocs.git
 [submodule "sublime-phpcs"]
 	path = sublime-phpcs
 	url = git://github.com/benmatselby/sublime-phpcs.git
@@ -73,3 +70,12 @@
 [submodule "sublime-text-2-goto-documentation"]
 	path = sublime-text-2-goto-documentation
 	url = git@github.com:kemayo/sublime-text-2-goto-documentation.git
+[submodule "sublime-mockery"]
+	path = sublime-mockery
+	url = git@github.com:florianeckerstorfer/sublime-mockery.git
+[submodule "DocBlockr"]
+	path = DocBlockr
+	url = git@github.com:spadgos/sublime-jsdocs.git
+[submodule "sublime-symfony2"]
+	path = sublime-symfony2
+	url = git@github.com:florianeckerstorfer/sublime-symfony2.git
