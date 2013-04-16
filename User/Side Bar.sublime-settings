@@ -1,0 +1,4 @@
+{
+    "version":          "11.13.2012.1305.0",
+    "default_browser":  "safari" //one of this list: firefox, chrome, chromium, opera, safari
+}

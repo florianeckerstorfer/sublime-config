@@ -79,3 +79,6 @@
 [submodule "sublime-symfony2"]
 	path = sublime-symfony2
 	url = git@github.com:florianeckerstorfer/sublime-symfony2.git
+[submodule "SideBarEnhancements"]
+	path = SideBarEnhancements
+	url = https://github.com/titoBouzout/SideBarEnhancements
