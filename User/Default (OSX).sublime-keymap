@@ -40,5 +40,26 @@
     {
         "keys": ["super+shift+h"],
         "command": "goto_documentation"
+    },
+
+    {
+        "keys": ["ctrl+super+r"],
+        "command": "reveal_in_side_bar"
+    },
+
+    // Use Paste & Indent as default
+    {
+        "keys": ["super+v"],
+        "command": "paste_and_indent"
+    },
+    {
+        "keys": ["super+shift+v"],
+        "command": "paste"
+    },
+
+    {
+        "keys": ["ctrl+#"],
+        "command": "show_panel",
+        "args": { "panel": "console", "toggle": true}
     }
 ]
