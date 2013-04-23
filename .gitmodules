@@ -82,3 +82,6 @@
 [submodule "SideBarEnhancements"]
 	path = SideBarEnhancements
 	url = https://github.com/titoBouzout/SideBarEnhancements
+[submodule "LESS-sublime"]
+	path = LESS-sublime
+	url = git@github.com:danro/LESS-sublime.git
