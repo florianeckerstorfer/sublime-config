@@ -85,3 +85,6 @@
 [submodule "LESS-sublime"]
 	path = LESS-sublime
 	url = git@github.com:danro/LESS-sublime.git
+[submodule "Gist"]
+	path = Gist
+	url = git://github.com/condemil/Gist
