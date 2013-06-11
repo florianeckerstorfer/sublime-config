@@ -5,8 +5,21 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
 	"detect_slow_plugins": false,
-	"file_exclude_patterns": [ ".DS_Store", "._*", ".tags", ".tags_sorted_by_file" ],
-	"folder_exclude_patterns": [".svn", ".git", ".sass-cache", "app/cache", "app/logs"],
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"._*",
+		".tags",
+		".tags_sorted_by_file"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".sass-cache",
+		"app/cache",
+		"app/logs"
+	],
 	"font_face": "Menlo",
 	"font_size": 13.0,
 	"highlight_line": true,

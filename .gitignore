@@ -48,3 +48,4 @@ YAML/
 PyV8/
 *.cache
 *.chback
+/User/Gist.sublime-settings
