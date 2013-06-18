@@ -94,3 +94,6 @@
 [submodule "handcrafted-haml-textmate-bundle"]
 	path = handcrafted-haml-textmate-bundle
 	url = git@github.com:phuibonhoa/handcrafted-haml-textmate-bundle.git
+[submodule "SublimeQuickFileCreator"]
+	path = SublimeQuickFileCreator
+	url = http://github.com/noklesta/SublimeQuickFileCreator
