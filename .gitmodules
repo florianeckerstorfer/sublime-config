@@ -91,3 +91,6 @@
 [submodule "Enhanced-R"]
 	path = Enhanced-R
 	url = https://github.com/randy3k/Enhanced-R
+[submodule "handcrafted-haml-textmate-bundle"]
+	path = handcrafted-haml-textmate-bundle
+	url = git@github.com:phuibonhoa/handcrafted-haml-textmate-bundle.git
