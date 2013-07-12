@@ -97,3 +97,9 @@
 [submodule "SublimeQuickFileCreator"]
 	path = SublimeQuickFileCreator
 	url = http://github.com/noklesta/SublimeQuickFileCreator
+[submodule "sublime-test-runner"]
+	path = sublime-test-runner
+	url = git@github.com:accerqueira/sublime-test-runner.git
+[submodule "sublime-worksheet"]
+	path = sublime-worksheet
+	url = https://github.com/jcartledge/sublime-worksheet.git
