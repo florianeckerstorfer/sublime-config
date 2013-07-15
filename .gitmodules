@@ -1,9 +1,6 @@
 [submodule "SublimeLinter"]
 	path = SublimeLinter
 	url = https://github.com/SublimeLinter/SublimeLinter.git
-[submodule "SublimeCodeIntel"]
-	path = SublimeCodeIntel
-	url = git://github.com/Kronuz/SublimeCodeIntel.git
 [submodule "Theme - Soda"]
 	path = Theme - Soda
 	url = https://github.com/buymeasoda/soda-theme/
@@ -103,3 +100,12 @@
 [submodule "sublime-worksheet"]
 	path = sublime-worksheet
 	url = https://github.com/jcartledge/sublime-worksheet.git
+[submodule "CodeIntel"]
+	path = CodeIntel
+	url = git://github.com/SublimeCodeIntel/SublimeCodeIntel.git
+[submodule "Tag"]
+	path = Tag
+	url = https://github.com/SublimeText/Tag
+[submodule "Xdebug"]
+	path = Xdebug
+	url = https://github.com/Kindari/SublimeXdebug
