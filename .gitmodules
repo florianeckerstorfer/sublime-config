@@ -109,3 +109,6 @@
 [submodule "Xdebug"]
 	path = Xdebug
 	url = https://github.com/Kindari/SublimeXdebug
+[submodule "Monokai Extended"]
+	path = Monokai Extended
+	url = https://github.com/jonschlinkert/sublime-monokai-extended.git
