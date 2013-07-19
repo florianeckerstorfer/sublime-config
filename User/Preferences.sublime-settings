@@ -3,7 +3,7 @@
 	"anypreter_stream_output": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -25,7 +25,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		// "Vintage",
 		"PHP"
 	],
 	"line_padding_bottom": 1,
