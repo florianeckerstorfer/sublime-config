@@ -112,3 +112,6 @@
 [submodule "Monokai Extended"]
 	path = Monokai Extended
 	url = https://github.com/jonschlinkert/sublime-monokai-extended.git
+[submodule "MarkingChangedRows"]
+	path = MarkingChangedRows
+	url = https://github.com/Harurow/sublime_markingchangedrows
