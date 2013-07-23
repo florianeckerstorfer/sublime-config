@@ -115,3 +115,6 @@
 [submodule "MarkingChangedRows"]
 	path = MarkingChangedRows
 	url = https://github.com/Harurow/sublime_markingchangedrows
+[submodule "VintageEscape"]
+	path = VintageEscape
+	url = https://github.com/krussell/VintageEscape
