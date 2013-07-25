@@ -25,10 +25,6 @@ def plugin_loaded():
 
 
 class SubfonyBase(sublime_plugin.WindowCommand):
-    def run(self):
-        self.window.show_input_panel(self.INPUT_PANEL_CAPTION, '', self.on_done, None, None)
-        self.view = self.window.active_view()
-
     def display_results(self):
         display = ShowInPanel(self.window)
         display.display_results()
@@ -59,7 +55,13 @@ class SubfonyBase(sublime_plugin.WindowCommand):
         return cwd
 
 
-class SubfonyGenerateBundleCommand(SubfonyBase):
+class SubfonyInputBase(SubfonyBase):
+    def run(self):
+        self.window.show_input_panel(self.INPUT_PANEL_CAPTION, '', self.on_done, None, None)
+        self.view = self.window.active_view()
+
+
+class SubfonyGenerateBundleCommand(SubfonyInputBase):
     INPUT_PANEL_CAPTION = 'Namespace:'
 
     def on_done(self, text):
@@ -72,7 +74,7 @@ class SubfonyGenerateBundleCommand(SubfonyBase):
         self.run_shell_command(cmd, cwd)
 
 
-class SubfonyGenerateControllerCommand(SubfonyBase):
+class SubfonyGenerateControllerCommand(SubfonyInputBase):
     INPUT_PANEL_CAPTION = 'Controller:'
 
     def on_done(self, text):
@@ -82,6 +84,18 @@ class SubfonyGenerateControllerCommand(SubfonyBase):
             return
 
         cmd = [Pref.php_bin, Pref.console_bin, 'generate:controller', '--controller=' + text, '--no-interaction']
+        self.run_shell_command(cmd, cwd)
+
+
+class SubfonyCacheClearCommand(SubfonyBase):
+    def run(self):
+        self.view = self.window.active_view()
+        cwd = self.find_symfony2_dir()
+        if cwd == '/' or cwd == '':
+            sublime.status_message('You\'re not in a Symfony2 application.')
+            return
+
+        cmd = [Pref.php_bin, Pref.console_bin, 'cache:clear', '--no-interaction']
         self.run_shell_command(cmd, cwd)
 
 

@@ -6,5 +6,9 @@
     {
         "caption": "Subfony: Generate Controller",
         "command": "subfony_generate_controller"
+    },
+    {
+        "caption": "Subfony: Cache Clear",
+        "command": "subfony_cache_clear"
     }
 ]
