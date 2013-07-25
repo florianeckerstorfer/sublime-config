@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Subfony: Generate Bundle",
+        "command": "subfony_generate_bundle"
+    }
+]
