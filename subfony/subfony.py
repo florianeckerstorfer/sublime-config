@@ -24,29 +24,17 @@ def plugin_loaded():
     Pref.load()
 
 
-class SubfonyGenerateBundleCommand(sublime_plugin.WindowCommand):
-    INPUT_PANEL_CAPTION = 'Namespace:'
-    output_view = ''
-    global THEME
-
+class SubfonyBase(sublime_plugin.WindowCommand):
     def run(self):
         self.window.show_input_panel(self.INPUT_PANEL_CAPTION, '', self.on_done, None, None)
         self.view = self.window.active_view()
 
-    def on_done(self, text):
-        if not self.view or not self.view.file_name():
-            sublime.status_message('A file must be open. Sorry.')
-            return
-        cwd = os.path.dirname(self.view.file_name())
-        while not os.path.exists(cwd + '/app') or cwd == '/' or cwd == '':
-            cwd = os.path.dirname(cwd)
+    def display_results(self):
+        display = ShowInPanel(self.window)
+        display.display_results()
 
-        if cwd == '/' or cwd == '':
-            sublime.status_message('You\'re not in a Symfony2 application.')
-            return
-
-        cmd = [Pref.php_bin, Pref.console_bin, 'generate:bundle', '--dir=' + Pref.src_dir, '--namespace=' + text, '--no-interaction']
-        self.run_shell_command(cmd, cwd)
+    def window(self):
+        return self.view.window()
 
     def run_shell_command(self, command, working_dir):
         if not command:
@@ -60,12 +48,41 @@ class SubfonyGenerateBundleCommand(sublime_plugin.WindowCommand):
         self.display_results()
         return True
 
-    def display_results(self):
-        display = ShowInPanel(self.window)
-        display.display_results()
+    def find_symfony2_dir(self):
+        if not self.view or not self.view.file_name():
+            sublime.status_message('A file must be open. Sorry.')
+            return
+        cwd = os.path.dirname(self.view.file_name())
+        while not os.path.exists(cwd + '/app') or cwd == '/' or cwd == '':
+            cwd = os.path.dirname(cwd)
 
-    def window(self):
-        return self.view.window()
+        return cwd
+
+
+class SubfonyGenerateBundleCommand(SubfonyBase):
+    INPUT_PANEL_CAPTION = 'Namespace:'
+
+    def on_done(self, text):
+        cwd = self.find_symfony2_dir()
+        if cwd == '/' or cwd == '':
+            sublime.status_message('You\'re not in a Symfony2 application.')
+            return
+
+        cmd = [Pref.php_bin, Pref.console_bin, 'generate:bundle', '--dir=' + Pref.src_dir, '--namespace=' + text, '--no-interaction']
+        self.run_shell_command(cmd, cwd)
+
+
+class SubfonyGenerateControllerCommand(SubfonyBase):
+    INPUT_PANEL_CAPTION = 'Controller:'
+
+    def on_done(self, text):
+        cwd = self.find_symfony2_dir()
+        if cwd == '/' or cwd == '':
+            sublime.status_message('You\'re not in a Symfony2 application.')
+            return
+
+        cmd = [Pref.php_bin, Pref.console_bin, 'generate:controller', '--controller=' + text, '--no-interaction']
+        self.run_shell_command(cmd, cwd)
 
 
 class ShowInPanel:
