@@ -87,6 +87,19 @@ class SubfonyGenerateControllerCommand(SubfonyInputBase):
         self.run_shell_command(cmd, cwd)
 
 
+class SubfonyDoctrineGenerateEntitiesCommand(SubfonyInputBase):
+    INPUT_PANEL_CAPTION = 'Name (Bundle, Namespace or Class):'
+
+    def on_done(self, text):
+        cwd = self.find_symfony2_dir()
+        if cwd == '/' or cwd == '':
+            sublime.status_message('You\'re not in a Symfony2 application.')
+            return
+
+        cmd = [Pref.php_bin, Pref.console_bin, 'doctrine:generate:entities', text, '--no-interaction']
+        self.run_shell_command(cmd, cwd)
+
+
 class SubfonyCacheClearCommand(SubfonyBase):
     def run(self):
         self.view = self.window.active_view()
