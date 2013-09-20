@@ -115,3 +115,6 @@
 [submodule "MarkingChangedRows"]
 	path = MarkingChangedRows
 	url = https://github.com/Harurow/sublime_markingchangedrows
+[submodule "CanISwitchToSublimeText3"]
+	path = CanISwitchToSublimeText3
+	url = https://github.com/SublimeGit/CanISwitchToSublimeText3
