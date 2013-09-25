@@ -118,3 +118,6 @@
 [submodule "VintageEscape"]
 	path = VintageEscape
 	url = https://github.com/krussell/VintageEscape
+[submodule "Javatar"]
+	path = Javatar
+	url = git@github.com:spywhere/Javatar.git
