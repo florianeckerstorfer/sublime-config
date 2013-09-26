@@ -124,3 +124,6 @@
 [submodule "Javatar"]
 	path = Javatar
 	url = git@github.com:spywhere/Javatar.git
+[submodule "tern_for_sublime"]
+	path = tern_for_sublime
+	url = git://github.com/marijnh/tern_for_sublime.git

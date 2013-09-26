@@ -35,7 +35,7 @@
 	"ruby_binary_path": "/usr/bin/ruby",
 	"rulers":
 	[
-		100
+		120
 	],
 	"scroll_past_end": true,
 	"theme": "Soda Light.sublime-theme",
