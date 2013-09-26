@@ -127,3 +127,6 @@
 [submodule "tern_for_sublime"]
 	path = tern_for_sublime
 	url = git://github.com/marijnh/tern_for_sublime.git
+[submodule "Livestyle"]
+	path = Livestyle
+	url = git@github.com:emmetio/livestyle-sublime.git
