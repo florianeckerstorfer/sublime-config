@@ -1,0 +1,26 @@
+{
+	"installed_packages":
+	[
+		"Abacus",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Filter Lines",
+		"Inc-Dec-Value",
+		"Javatar",
+		"LaTeX-cwl",
+		"LaTeXTools",
+		"Marking Changed Rows",
+		"Monokai Extended",
+		"PHP-Twig",
+		"PHPUnit Snippets",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Table Editor",
+		"Tag",
+		"Theme - Soda",
+		"Vintage Escape"
+	]
+}
