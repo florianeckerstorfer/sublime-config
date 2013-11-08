@@ -130,3 +130,6 @@
 [submodule "Livestyle"]
 	path = Livestyle
 	url = git@github.com:emmetio/livestyle-sublime.git
+[submodule "Composer"]
+	path = Composer
+	url = git@github.com:francodacosta/composer-sublime.git
