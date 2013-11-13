@@ -12,5 +12,19 @@
     },
     {
         "keys": ["super+ctrl+alt+6"], "command": "abacus"
-    }
+    },
+    {
+        "keys": [
+            "shift+super+#"
+        ],
+        "args": {
+            "action": "split_join_tag"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.split_join_tag"
+            }
+        ]
+    },
 ]

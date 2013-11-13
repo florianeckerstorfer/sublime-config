@@ -1,18 +1,18 @@
 {
-	"anypreter_output_inteval": 1,
-	"anypreter_stream_output": false,
-	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
-	"detect_slow_plugins": false,
-	"file_exclude_patterns":
+    "anypreter_output_inteval": 		 1,
+    "anypreter_stream_output":  		 false,
+    "bold_folder_labels":       		 true,
+    "caret_style":              		 "phase",
+    "color_scheme":             		 "Packages/Monokai Extended/Monokai Extended.tmTheme",
+    "detect_slow_plugins":      		 false,
+	"file_exclude_patterns"  			 :
 	[
 		".DS_Store",
 		"._*",
 		".tags",
 		".tags_sorted_by_file"
 	],
-	"folder_exclude_patterns":
+	"folder_exclude_patterns"			 :
 	[
 		".svn",
 		".git",
@@ -20,26 +20,26 @@
 		"app/cache",
 		"app/logs"
 	],
-	"font_face": "Menlo",
-	"font_size": 14.0,
-	"highlight_line": true,
+    "font_face":        				 "Menlo",
+    "font_size":        				 14.0,
+    "highlight_line":   				 true,
 	"ignored_packages":
 	[
 		"PHP"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"php_binary_path": "/usr/local/bin/php",
-	"python_binary_path": "/usr/bin/pyhton",
-	"remember_open_files": false,
-	"ruby_binary_path": "/usr/bin/ruby",
+	"line_padding_bottom": 				 1,
+	"line_padding_top": 				 1,
+	"php_binary_path": 					 "/usr/local/bin/php",
+	"python_binary_path": 				 "/usr/bin/pyhton",
+	"remember_open_files": 				 false,
+	"ruby_binary_path": 				 "/usr/bin/ruby",
 	"rulers":
 	[
 		120
 	],
-	"scroll_past_end": true,
-	"theme": "Soda Light.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+    "scroll_past_end":                   true,
+    "theme":                             "Soda Light.sublime-theme",
+    "translate_tabs_to_spaces":          true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap":                         "true"
 }
