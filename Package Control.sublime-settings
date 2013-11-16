@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Abacus",
+		"Codeivate",
 		"CSScomb",
 		"DocBlockr",
 		"Emmet",
@@ -23,6 +24,7 @@
 		"sublimelint",
 		"Table Editor",
 		"Tag",
+		"Theme - Argonaut",
 		"Theme - Soda",
 		"Vintage Escape"
 	]
