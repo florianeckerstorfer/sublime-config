@@ -10,7 +10,8 @@
 		".DS_Store",
 		"._*",
 		".tags",
-		".tags_sorted_by_file"
+		".tags_sorted_by_file",
+		"*.pyc"
 	],
 	"folder_exclude_patterns":
 	[
