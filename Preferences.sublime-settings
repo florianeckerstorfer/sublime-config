@@ -3,7 +3,7 @@
 	"anypreter_stream_output": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Argonaut/Argonaut.tmTheme",
+	"color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -19,7 +19,9 @@
 		".git",
 		".sass-cache",
 		"app/cache",
-		"app/logs"
+		"app/logs",
+		"Resources/build",
+		"build"
 	],
 	"font_face": "Menlo",
 	"font_size": 13.0,
@@ -40,7 +42,9 @@
 		120
 	],
 	"scroll_past_end": true,
-	"theme": "Argonaut.sublime-theme",
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "Glacier.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
