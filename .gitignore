@@ -6,3 +6,5 @@ Package Control.cache/
 Package Control.ca-certs/
 linters/
 codeivate-st.sublime-settings
+Xdebug.log
+Xdebug.breakpoints
