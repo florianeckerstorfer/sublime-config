@@ -8,3 +8,4 @@ linters/
 codeivate-st.sublime-settings
 Xdebug.log
 Xdebug.breakpoints
+.SublimeREPLHistory/
