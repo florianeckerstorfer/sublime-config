@@ -3,7 +3,7 @@
 	"anypreter_stream_output": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
+	"color_scheme": "Packages/Theme - Argonaut/Argonaut.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -24,7 +24,7 @@
 		"build"
 	],
 	"font_face": "Menlo",
-	"font_size": 13.0,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -34,7 +34,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"php_binary_path": "/usr/local/bin/php",
-	"python_binary_path": "/usr/bin/pyhton",
+	"python_binary_path": "/usr/bin/python",
 	"remember_open_files": false,
 	"ruby_binary_path": "/usr/bin/ruby",
 	"rulers":
@@ -44,7 +44,7 @@
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Glacier.sublime-theme",
+	"theme": "Argonaut.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
