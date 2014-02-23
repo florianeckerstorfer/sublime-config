@@ -22,8 +22,8 @@
 		".sass-cache",
 		".svn"
 	],
-	"font_face": "Menlo",
-	"font_size": 13.0,
+	"font_face": "Inconsolata",
+	"font_size": 15.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -54,5 +54,6 @@
 	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
+	"wrap_width": 120
 }
