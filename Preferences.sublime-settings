@@ -5,6 +5,7 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
 	"detect_slow_plugins": false,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -15,20 +16,27 @@
 	],
 	"folder_exclude_patterns":
 	[
-		".svn",
+		".bundle",
 		".git",
+		".hg",
 		".sass-cache",
-		"app/cache",
-		"app/logs",
-		"Resources/build"
+		".svn"
 	],
 	"font_face": "Menlo",
 	"font_size": 13.0,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Markdown",
 		"PHP"
+	],
+	"index_exclude_patterns":
+	[
+		"bootstrap.php.cache",
+		"/Users/florian/Documents/Development/tvst.co/app/logs*",
+		"*.log",
+		"/Users/florian/Documents/Development/tvst.co/app/cache*"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -43,6 +51,7 @@
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
+	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
