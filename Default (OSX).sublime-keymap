@@ -27,4 +27,8 @@
             }
         ]
     },
+    {
+        "keys": [ "super+alt+shift+n" ],
+        "command": "advanced_new_file_new"
+    }
 ]
