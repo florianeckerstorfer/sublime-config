@@ -20,7 +20,11 @@
 		".git",
 		".hg",
 		".sass-cache",
-		".svn"
+		".svn",
+		"app/cache",
+		"app/logs",
+		"build/code-coverage",
+		"docs/api"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 15.0,
@@ -33,10 +37,12 @@
 	],
 	"index_exclude_patterns":
 	[
+		"app/cache*",
 		"bootstrap.php.cache",
-		"/Users/florian/Documents/Development/tvst.co/app/logs*",
+		"docs/code-coverage*",
+		"docs*",
 		"*.log",
-		"/Users/florian/Documents/Development/tvst.co/app/cache*"
+		"app/logs*"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
