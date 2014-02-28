@@ -2,6 +2,7 @@
     "line_numbers": false,
     "draw_centered": true,
     "rulers": [ ],
+    "spell_check": true,
     "word_wrap": "true",
     "wrap_width": 100
 }
