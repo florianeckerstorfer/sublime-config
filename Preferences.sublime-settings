@@ -3,7 +3,7 @@
 	"anypreter_stream_output": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"detect_slow_plugins": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -32,8 +32,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"PHP",
-		"Markdown"
+		"Theme - Glacier",
+		"Markdown",
+		"SublimeGit",
+		"Symfony2 Snippets",
+		"PHP"
 	],
 	"index_exclude_patterns":
 	[
