@@ -33,10 +33,7 @@
 	"ignored_packages":
 	[
 		"PHP",
-		"Markdown",
-		"SublimeGit",
-		"Theme - Glacier",
-		"Symfony2 Snippets"
+		"Markdown"
 	],
 	"index_exclude_patterns":
 	[
