@@ -32,8 +32,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"PHP",
-		"Markdown"
+		"Markdown",
+		"PHP"
 	],
 	"index_exclude_patterns":
 	[
