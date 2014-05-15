@@ -1,6 +1,9 @@
 [
     {
-        "keys": ["super+alt+n"], "command": "php_namespace"
+        "keys": ["super+alt+n"], "command": "phex_insert_namespace"
+    },
+    {
+        "keys": ["super+alt+c"], "command": "phex_insert_class_name"
     },
     {
         "keys":    ["super+ctrl+left"],

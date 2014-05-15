@@ -1,4 +1,8 @@
 {
 	"javatar_gp": 0,
-	"message_id": 6
+	"jdk_version":
+	{
+		"use": ""
+	},
+	"message_id": 16
 }
